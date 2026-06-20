@@ -1,0 +1,501 @@
+Customer_ID,Age,Country,Occupation,Annual_Income,Monthly_Transactions,Avg_Transaction_Value,PEP,High_Risk_Country,Risk_Score,Risk_Category
+C0001,61,USA,Salaried,4914226,16,122026,No,No,45,Medium Risk
+C0002,27,USA,Student,7378673,3,20622,No,No,15,Low Risk
+C0003,35,India,Student,3635942,46,345726,No,No,55,Medium Risk
+C0004,47,Singapore,Cash Intensive Business,4967265,52,460763,Yes,No,125,High Risk
+C0005,72,UAE,Consultant,7390293,22,150684,No,No,50,Medium Risk
+C0006,69,Iran,Salaried,1856017,25,55707,No,Yes,65,Medium Risk
+C0007,43,Russia,Salaried,8007870,35,70444,No,Yes,75,Medium Risk
+C0008,45,USA,Student,5218715,54,334588,No,No,55,Medium Risk
+C0009,44,Singapore,Consultant,1466941,3,351692,No,No,40,Low Risk
+C0010,39,USA,Business Owner,1994522,25,150738,No,No,60,Medium Risk
+C0011,74,Iran,Business Owner,6510606,23,114842,No,Yes,90,High Risk
+C0012,65,USA,Student,3171230,35,387272,No,No,55,Medium Risk
+C0013,50,Syria,Politician,9644066,15,363935,No,Yes,110,High Risk
+C0014,70,India,Business Owner,838552,52,170388,No,No,70,Medium Risk
+C0015,25,Singapore,Student,5579418,14,348638,No,No,45,Medium Risk
+C0016,62,UK,Business Owner,4743951,9,134303,No,No,50,Medium Risk
+C0017,55,Russia,Consultant,7487926,58,310939,No,Yes,90,High Risk
+C0018,35,UAE,Student,8579821,6,401247,Yes,No,75,Medium Risk
+C0019,28,UAE,Consultant,2984052,51,361768,No,No,60,Medium Risk
+C0020,25,Syria,Cash Intensive Business,8152574,34,136813,No,Yes,115,High Risk
+C0021,21,USA,Consultant,9308867,49,144893,No,No,60,Medium Risk
+C0022,42,USA,Politician,7594150,11,242881,Yes,No,120,High Risk
+C0023,67,Russia,Student,3297281,33,483479,No,Yes,85,High Risk
+C0024,61,Russia,Consultant,8817169,39,109286,No,Yes,90,High Risk
+C0025,69,UAE,Student,9197858,59,5299,No,No,35,Low Risk
+C0026,52,India,Salaried,6389806,57,441032,No,No,55,Medium Risk
+C0027,36,India,Business Owner,9818669,6,49907,No,No,30,Low Risk
+C0028,73,USA,Student,2409911,9,350899,No,No,35,Low Risk
+C0029,56,UAE,Politician,9152897,56,323029,No,No,90,High Risk
+C0030,34,Singapore,Consultant,5529731,26,357157,No,No,50,Medium Risk
+C0031,49,UK,Salaried,4459166,15,38568,No,No,25,Low Risk
+C0032,58,Singapore,Student,3994634,1,42220,No,No,15,Low Risk
+C0033,24,Singapore,Salaried,827021,56,178239,No,No,55,Medium Risk
+C0034,36,Russia,Consultant,8443903,14,287713,No,Yes,80,Medium Risk
+C0035,57,UK,Business Owner,8235169,52,218416,No,No,70,Medium Risk
+C0036,27,Syria,Politician,7406470,27,249855,No,Yes,110,High Risk
+C0037,24,USA,Salaried,7054864,47,182892,No,No,55,Medium Risk
+C0038,27,Singapore,Business Owner,3491175,35,240202,No,No,70,Medium Risk
+C0039,32,Russia,Cash Intensive Business,4491056,56,489057,No,Yes,115,High Risk
+C0040,72,USA,Salaried,9369560,54,12737,No,No,35,Low Risk
+C0041,69,Singapore,Business Owner,7118496,32,257370,No,No,70,Medium Risk
+C0042,46,India,Business Owner,6658113,1,209693,No,No,50,Medium Risk
+C0043,71,UK,Politician,7396887,45,387995,No,No,90,High Risk
+C0044,56,UK,Business Owner,3485957,19,119137,No,No,60,Medium Risk
+C0045,58,India,Consultant,5561415,4,31289,No,No,20,Low Risk
+C0046,53,UAE,Salaried,8819948,6,451348,No,No,35,Low Risk
+C0047,59,USA,Consultant,4246066,26,67855,No,No,40,Low Risk
+C0048,57,Singapore,Student,966754,40,47982,No,No,35,Low Risk
+C0049,58,Iran,Politician,3726900,43,380490,No,Yes,120,High Risk
+C0050,37,Syria,Business Owner,5333115,30,170767,No,Yes,90,High Risk
+C0051,25,India,Cash Intensive Business,9745465,7,43409,No,No,45,Medium Risk
+C0052,53,Russia,Business Owner,6155396,57,41066,No,Yes,80,Medium Risk
+C0053,44,Russia,Business Owner,7651517,54,289802,No,Yes,100,High Risk
+C0054,60,India,Consultant,9604682,20,493508,No,No,50,Medium Risk
+C0055,29,Russia,Salaried,2095765,48,295048,No,Yes,85,High Risk
+C0056,39,Singapore,Consultant,6052576,14,365446,No,No,50,Medium Risk
+C0057,37,UK,Politician,1152264,6,337547,No,No,70,Medium Risk
+C0058,38,India,Salaried,5896150,50,73587,No,No,45,Medium Risk
+C0059,37,UAE,Consultant,7712769,36,374972,No,No,60,Medium Risk
+C0060,21,USA,Salaried,2800715,35,23889,No,No,35,Low Risk
+C0061,58,UAE,Cash Intensive Business,2438181,3,166616,No,No,65,Medium Risk
+C0062,71,India,Politician,3824499,44,135825,No,No,90,High Risk
+C0063,43,Syria,Student,2892974,60,492525,No,Yes,85,High Risk
+C0064,31,UAE,Cash Intensive Business,715846,12,391171,No,No,75,Medium Risk
+C0065,71,Syria,Consultant,4463555,18,88465,No,Yes,70,Medium Risk
+C0066,27,Syria,Salaried,8196868,15,109633,No,Yes,75,Medium Risk
+C0067,50,Iran,Politician,4118418,15,17406,No,Yes,90,High Risk
+C0068,46,Iran,Politician,1464686,50,151341,No,Yes,120,High Risk
+C0069,53,Syria,Consultant,9296207,22,497430,Yes,Yes,120,High Risk
+C0070,37,UAE,Student,4753786,3,61834,No,No,25,Low Risk
+C0071,43,Iran,Cash Intensive Business,8880255,8,206953,No,Yes,95,High Risk
+C0072,33,Russia,Salaried,7615831,1,277587,No,Yes,65,Medium Risk
+C0073,55,Singapore,Politician,7535969,5,353251,No,No,70,Medium Risk
+C0074,60,Iran,Consultant,2390865,47,476883,No,Yes,90,High Risk
+C0075,40,Syria,Politician,7051158,45,160008,No,Yes,120,High Risk
+C0076,33,Syria,Consultant,6661002,44,397237,No,Yes,90,High Risk
+C0077,60,Russia,Cash Intensive Business,9492860,54,5212,No,Yes,95,High Risk
+C0078,34,Syria,Student,5706444,30,236623,No,Yes,75,Medium Risk
+C0079,34,UK,Consultant,3146949,43,49457,No,No,40,Low Risk
+C0080,63,Iran,Salaried,4240441,44,167749,No,Yes,85,High Risk
+C0081,33,UAE,Salaried,1075337,16,254108,No,No,45,Medium Risk
+C0082,70,USA,Cash Intensive Business,7253166,57,335178,No,No,85,High Risk
+C0083,66,Syria,Cash Intensive Business,7005062,16,82369,No,Yes,95,High Risk
+C0084,21,USA,Cash Intensive Business,3971545,12,426585,No,No,75,Medium Risk
+C0085,54,UK,Salaried,9651717,16,486018,No,No,45,Medium Risk
+C0086,50,UAE,Cash Intensive Business,9210914,36,317188,No,No,85,High Risk
+C0087,69,UK,Student,8768772,28,440457,No,No,45,Medium Risk
+C0088,49,UAE,Consultant,8263715,29,140891,No,No,50,Medium Risk
+C0089,74,Russia,Student,8430188,41,130433,No,Yes,85,High Risk
+C0090,25,Russia,Business Owner,4858623,22,172619,No,Yes,90,High Risk
+C0091,26,UAE,Business Owner,4179923,25,368829,No,No,60,Medium Risk
+C0092,34,USA,Cash Intensive Business,7138382,22,289484,No,No,75,Medium Risk
+C0093,24,Singapore,Cash Intensive Business,6834336,58,408594,No,No,85,High Risk
+C0094,65,India,Student,6681734,31,8091,No,No,35,Low Risk
+C0095,40,Syria,Cash Intensive Business,9329842,48,390159,No,Yes,115,High Risk
+C0096,59,Singapore,Cash Intensive Business,3981284,18,233503,No,No,75,Medium Risk
+C0097,45,Iran,Consultant,7083308,47,91530,No,Yes,80,Medium Risk
+C0098,29,India,Cash Intensive Business,9768926,43,19209,No,No,65,Medium Risk
+C0099,48,UAE,Cash Intensive Business,3348907,4,141396,No,No,65,Medium Risk
+C0100,34,UK,Politician,5962319,49,466184,No,No,90,High Risk
+C0101,69,Syria,Politician,1674158,31,15162,No,Yes,100,High Risk
+C0102,24,Iran,Business Owner,1451225,50,346707,Yes,Yes,140,High Risk
+C0103,22,Singapore,Business Owner,641919,40,84892,No,No,60,Medium Risk
+C0104,51,USA,Student,3956838,30,371721,No,No,45,Medium Risk
+C0105,44,UAE,Student,2221542,50,434549,No,No,55,Medium Risk
+C0106,40,USA,Student,730812,60,168555,No,No,55,Medium Risk
+C0107,45,Syria,Consultant,3627421,5,315429,No,Yes,70,Medium Risk
+C0108,61,Singapore,Salaried,5359717,55,363748,No,No,55,Medium Risk
+C0109,28,India,Politician,9237982,28,351827,No,No,80,Medium Risk
+C0110,53,Iran,Salaried,7347416,53,262006,No,Yes,85,High Risk
+C0111,44,UK,Consultant,2866765,28,97346,No,No,40,Low Risk
+C0112,62,Russia,Student,9329043,50,258491,No,Yes,85,High Risk
+C0113,73,Russia,Politician,4418725,54,495011,No,Yes,120,High Risk
+C0114,49,Singapore,Cash Intensive Business,9860490,40,355323,No,No,85,High Risk
+C0115,22,UK,Politician,3350766,32,116211,No,No,90,High Risk
+C0116,37,Iran,Politician,4935017,36,10322,No,Yes,100,High Risk
+C0117,33,USA,Business Owner,7118732,32,296072,No,No,70,Medium Risk
+C0118,65,UK,Consultant,8534615,29,420725,Yes,No,90,High Risk
+C0119,39,Singapore,Cash Intensive Business,4381983,20,353106,No,No,75,Medium Risk
+C0120,51,Iran,Cash Intensive Business,9533986,22,189450,No,Yes,105,High Risk
+C0121,38,Russia,Politician,4167786,8,383160,No,Yes,100,High Risk
+C0122,28,UAE,Business Owner,3930331,48,258859,No,No,70,Medium Risk
+C0123,58,Russia,Salaried,3556752,19,124266,No,Yes,75,Medium Risk
+C0124,40,India,Consultant,9261299,9,148818,Yes,No,80,Medium Risk
+C0125,24,Russia,Consultant,2418618,41,460323,No,Yes,90,High Risk
+C0126,27,India,Student,5070422,31,255984,No,No,55,Medium Risk
+C0127,32,India,Politician,8314965,8,436025,No,No,70,Medium Risk
+C0128,52,USA,Student,1199411,10,83222,No,No,35,Low Risk
+C0129,40,USA,Business Owner,2287287,36,405788,No,No,70,Medium Risk
+C0130,59,Singapore,Student,6681684,29,481317,No,No,45,Medium Risk
+C0131,58,Syria,Politician,9840019,40,36578,No,Yes,100,High Risk
+C0132,68,USA,Business Owner,3840415,17,351254,No,No,60,Medium Risk
+C0133,36,UAE,Student,1559379,11,6402,No,No,25,Low Risk
+C0134,65,UK,Politician,847605,15,156049,No,No,80,Medium Risk
+C0135,65,UK,Salaried,4216201,60,143702,No,No,55,Medium Risk
+C0136,61,Singapore,Cash Intensive Business,2225626,35,122864,No,No,85,High Risk
+C0137,38,UAE,Salaried,1300560,11,420565,No,No,45,Medium Risk
+C0138,68,Russia,Cash Intensive Business,2386308,30,366065,No,Yes,105,High Risk
+C0139,46,Russia,Student,9359387,32,234511,No,Yes,85,High Risk
+C0140,23,Syria,Consultant,5707658,39,136264,Yes,Yes,130,High Risk
+C0141,35,India,Consultant,4821644,37,26092,No,No,40,Low Risk
+C0142,32,UK,Student,7719378,59,150834,No,No,55,Medium Risk
+C0143,58,Syria,Consultant,8549789,6,251420,No,Yes,70,Medium Risk
+C0144,42,Iran,Consultant,2054894,55,89318,No,Yes,80,Medium Risk
+C0145,65,UK,Politician,7018473,53,403720,No,No,90,High Risk
+C0146,50,USA,Politician,4534550,21,65776,No,No,70,Medium Risk
+C0147,46,India,Consultant,9403209,30,221660,No,No,50,Medium Risk
+C0148,54,Iran,Student,8663326,41,236756,No,Yes,85,High Risk
+C0149,34,Russia,Student,2498037,60,156010,No,Yes,85,High Risk
+C0150,65,UK,Salaried,784348,41,324224,No,No,55,Medium Risk
+C0151,66,UAE,Politician,9541545,1,294538,No,No,70,Medium Risk
+C0152,35,USA,Cash Intensive Business,2270754,42,441282,No,No,85,High Risk
+C0153,66,Russia,Student,4887308,27,442635,No,Yes,75,Medium Risk
+C0154,51,Singapore,Cash Intensive Business,9548693,10,206109,No,No,75,Medium Risk
+C0155,59,UAE,Salaried,4934662,50,419190,No,No,55,Medium Risk
+C0156,42,Russia,Salaried,5045250,47,161529,No,Yes,85,High Risk
+C0157,58,UK,Business Owner,7791822,35,258934,No,No,70,Medium Risk
+C0158,56,Syria,Cash Intensive Business,5698528,56,103908,No,Yes,115,High Risk
+C0159,36,Syria,Business Owner,7191662,3,171816,No,Yes,80,Medium Risk
+C0160,66,Syria,Cash Intensive Business,2851903,32,24408,No,Yes,95,High Risk
+C0161,58,Iran,Salaried,7687112,7,280749,No,Yes,65,Medium Risk
+C0162,21,UAE,Cash Intensive Business,2889751,5,251148,No,No,65,Medium Risk
+C0163,37,Iran,Student,6968663,42,47108,No,Yes,65,Medium Risk
+C0164,75,Syria,Politician,8486400,56,288648,Yes,Yes,160,High Risk
+C0165,25,Singapore,Consultant,5121419,15,396520,No,No,50,Medium Risk
+C0166,27,USA,Cash Intensive Business,3091137,45,162006,No,No,85,High Risk
+C0167,23,Iran,Salaried,5221894,23,201524,No,Yes,75,Medium Risk
+C0168,36,Syria,Student,3320853,11,96786,No,Yes,65,Medium Risk
+C0169,45,Singapore,Cash Intensive Business,2701116,15,246775,No,No,75,Medium Risk
+C0170,50,Russia,Consultant,457662,58,426859,No,Yes,90,High Risk
+C0171,39,UAE,Salaried,7710995,23,313056,No,No,45,Medium Risk
+C0172,48,Russia,Cash Intensive Business,5368760,13,206690,No,Yes,105,High Risk
+C0173,27,Singapore,Cash Intensive Business,9895270,23,306366,No,No,75,Medium Risk
+C0174,65,Russia,Salaried,6940518,18,9245,No,Yes,55,Medium Risk
+C0175,64,India,Student,8633700,54,479037,No,No,55,Medium Risk
+C0176,70,Singapore,Student,6210964,15,338771,No,No,45,Medium Risk
+C0177,37,UAE,Consultant,1930140,58,333968,No,No,60,Medium Risk
+C0178,40,UK,Salaried,6421355,47,73897,No,No,45,Medium Risk
+C0179,39,Iran,Consultant,7270985,12,110274,No,Yes,80,Medium Risk
+C0180,55,Iran,Student,8718719,59,147882,No,Yes,85,High Risk
+C0181,37,UK,Politician,5982698,52,65382,No,No,80,Medium Risk
+C0182,25,UAE,Business Owner,6967458,55,426835,No,No,70,Medium Risk
+C0183,26,Syria,Salaried,4736878,35,69796,No,Yes,75,Medium Risk
+C0184,64,Russia,Student,6692547,53,339783,No,Yes,85,High Risk
+C0185,27,Singapore,Cash Intensive Business,719843,40,468593,No,No,85,High Risk
+C0186,41,Singapore,Consultant,1360605,41,436937,No,No,60,Medium Risk
+C0187,65,Russia,Consultant,7150067,8,78283,Yes,Yes,100,High Risk
+C0188,23,Russia,Cash Intensive Business,2248178,7,128102,No,Yes,95,High Risk
+C0189,29,Syria,Cash Intensive Business,6524540,43,394619,No,Yes,115,High Risk
+C0190,55,Syria,Student,2892464,57,222518,No,Yes,85,High Risk
+C0191,74,UK,Student,7147048,18,22152,No,No,25,Low Risk
+C0192,34,UK,Cash Intensive Business,4261312,55,195151,No,No,85,High Risk
+C0193,64,Iran,Student,6317548,4,213739,No,Yes,65,Medium Risk
+C0194,28,UK,Salaried,3858545,42,340278,No,No,55,Medium Risk
+C0195,22,India,Politician,4386407,9,417603,No,No,70,Medium Risk
+C0196,25,Singapore,Student,3923062,53,460970,No,No,55,Medium Risk
+C0197,70,UAE,Student,347572,18,455052,No,No,45,Medium Risk
+C0198,29,Russia,Business Owner,2144258,43,459268,Yes,Yes,140,High Risk
+C0199,21,Iran,Business Owner,5731983,2,96355,No,Yes,70,Medium Risk
+C0200,29,Syria,Student,2206718,48,38322,No,Yes,65,Medium Risk
+C0201,70,Iran,Student,2129622,29,269156,No,Yes,75,Medium Risk
+C0202,60,India,Consultant,9048499,20,245146,No,No,50,Medium Risk
+C0203,22,India,Cash Intensive Business,7038019,28,364712,No,No,75,Medium Risk
+C0204,66,UK,Salaried,1655439,21,323923,No,No,45,Medium Risk
+C0205,29,Russia,Student,9499894,46,175490,No,Yes,85,High Risk
+C0206,59,Russia,Cash Intensive Business,8781739,39,230548,No,Yes,115,High Risk
+C0207,65,USA,Consultant,9549870,47,458767,No,No,60,Medium Risk
+C0208,49,Singapore,Cash Intensive Business,5986328,53,242764,No,No,85,High Risk
+C0209,67,USA,Politician,7459911,21,353708,No,No,80,Medium Risk
+C0210,30,UK,Salaried,1830497,54,49755,No,No,35,Low Risk
+C0211,27,Iran,Business Owner,9634352,4,312476,No,Yes,80,Medium Risk
+C0212,56,Iran,Consultant,2350700,27,190387,No,Yes,80,Medium Risk
+C0213,69,Syria,Consultant,1163121,19,319787,No,Yes,80,Medium Risk
+C0214,27,Singapore,Business Owner,8389795,15,449216,No,No,60,Medium Risk
+C0215,75,Iran,Salaried,4973599,37,123572,No,Yes,85,High Risk
+C0216,75,India,Student,4787028,2,99589,No,No,25,Low Risk
+C0217,69,Russia,Politician,6189195,1,100108,No,Yes,100,High Risk
+C0218,57,Syria,Salaried,2680261,48,336964,No,Yes,85,High Risk
+C0219,26,Singapore,Cash Intensive Business,7343620,30,183727,No,No,75,Medium Risk
+C0220,40,Iran,Student,1725342,57,32582,No,Yes,65,Medium Risk
+C0221,69,India,Consultant,1668710,18,237318,No,No,50,Medium Risk
+C0222,52,UK,Cash Intensive Business,4882979,14,400807,No,No,75,Medium Risk
+C0223,43,Syria,Salaried,5052087,44,360722,No,Yes,85,High Risk
+C0224,54,Russia,Salaried,3999685,26,319218,No,Yes,75,Medium Risk
+C0225,34,Russia,Business Owner,2602417,49,138965,No,Yes,100,High Risk
+C0226,28,India,Cash Intensive Business,7525192,12,72730,No,No,65,Medium Risk
+C0227,66,Singapore,Student,9673825,54,355249,No,No,55,Medium Risk
+C0228,25,Syria,Consultant,1009714,28,14825,No,Yes,60,Medium Risk
+C0229,25,Iran,Student,7502195,37,217034,No,Yes,85,High Risk
+C0230,47,Russia,Salaried,7095314,2,175272,No,Yes,65,Medium Risk
+C0231,60,UK,Consultant,6370880,6,233962,No,No,40,Low Risk
+C0232,36,Syria,Student,7018433,34,46233,No,Yes,65,Medium Risk
+C0233,40,Iran,Business Owner,5887964,50,93149,No,Yes,90,High Risk
+C0234,61,USA,Student,8855575,13,479964,No,No,45,Medium Risk
+C0235,43,UAE,Business Owner,2024773,10,139201,No,No,60,Medium Risk
+C0236,59,UAE,Consultant,1564218,12,410194,No,No,50,Medium Risk
+C0237,50,UK,Consultant,9770600,42,338079,No,No,60,Medium Risk
+C0238,41,Iran,Business Owner,7677995,5,250849,No,Yes,80,Medium Risk
+C0239,40,Russia,Student,1242411,23,270990,No,Yes,75,Medium Risk
+C0240,50,UK,Salaried,1254456,24,441048,No,No,45,Medium Risk
+C0241,62,USA,Student,8807186,25,247594,No,No,45,Medium Risk
+C0242,71,India,Cash Intensive Business,9890807,42,103691,No,No,85,High Risk
+C0243,51,UAE,Salaried,7858523,7,430180,No,No,35,Low Risk
+C0244,42,USA,Student,3195058,3,134889,No,No,35,Low Risk
+C0245,49,UAE,Politician,6555418,59,153317,No,No,90,High Risk
+C0246,70,Iran,Consultant,1178547,51,335766,No,Yes,90,High Risk
+C0247,25,Iran,Salaried,9661069,44,207670,No,Yes,85,High Risk
+C0248,67,UAE,Politician,1667376,38,352923,No,No,90,High Risk
+C0249,43,Russia,Consultant,6875963,9,316972,No,Yes,70,Medium Risk
+C0250,26,Russia,Student,6619630,42,420058,No,Yes,85,High Risk
+C0251,29,USA,Consultant,7403580,33,194702,Yes,No,100,High Risk
+C0252,40,UAE,Business Owner,6033317,50,259946,No,No,70,Medium Risk
+C0253,29,UAE,Salaried,5262567,55,418201,No,No,55,Medium Risk
+C0254,70,India,Consultant,5949968,57,406765,No,No,60,Medium Risk
+C0255,59,Syria,Business Owner,3022056,12,440864,No,Yes,90,High Risk
+C0256,60,UAE,Consultant,7642941,3,220408,No,No,40,Low Risk
+C0257,67,Singapore,Cash Intensive Business,5080297,49,397448,No,No,85,High Risk
+C0258,35,Singapore,Politician,8168776,58,442839,No,No,90,High Risk
+C0259,64,UK,Cash Intensive Business,5027345,50,205211,No,No,85,High Risk
+C0260,47,UAE,Business Owner,2621942,56,136073,No,No,70,Medium Risk
+C0261,51,Iran,Student,2021170,46,448491,No,Yes,85,High Risk
+C0262,28,Russia,Salaried,2989594,18,240572,No,Yes,75,Medium Risk
+C0263,30,Syria,Salaried,4025179,53,241520,No,Yes,85,High Risk
+C0264,22,Syria,Salaried,6951393,33,201063,No,Yes,85,High Risk
+C0265,26,Iran,Business Owner,772908,21,493020,No,Yes,90,High Risk
+C0266,66,Iran,Business Owner,2608538,3,155407,No,Yes,80,Medium Risk
+C0267,51,UAE,Consultant,8170361,29,327619,Yes,No,90,High Risk
+C0268,26,India,Politician,3918086,54,83391,No,No,80,Medium Risk
+C0269,67,Syria,Salaried,5133542,16,162889,No,Yes,75,Medium Risk
+C0270,36,Syria,Consultant,7969093,5,63121,No,Yes,60,Medium Risk
+C0271,52,India,Consultant,8946569,37,131845,No,No,60,Medium Risk
+C0272,39,Syria,Salaried,6219270,16,304192,No,Yes,75,Medium Risk
+C0273,63,USA,Student,6349927,5,280806,No,No,35,Low Risk
+C0274,71,India,Cash Intensive Business,8187557,3,338274,No,No,65,Medium Risk
+C0275,44,Russia,Consultant,572499,23,418411,No,Yes,80,Medium Risk
+C0276,36,USA,Student,5878736,9,28244,No,No,15,Low Risk
+C0277,42,UAE,Consultant,8095078,45,255888,No,No,60,Medium Risk
+C0278,72,UAE,Salaried,7978589,3,158848,No,No,35,Low Risk
+C0279,71,Singapore,Salaried,5594819,60,167569,No,No,55,Medium Risk
+C0280,73,UK,Politician,914394,49,344162,No,No,90,High Risk
+C0281,43,India,Consultant,5868772,18,70260,No,No,40,Low Risk
+C0282,48,Syria,Consultant,7677556,58,207713,No,Yes,90,High Risk
+C0283,32,UK,Consultant,8647057,24,489604,No,No,50,Medium Risk
+C0284,38,USA,Consultant,7421922,6,230762,No,No,40,Low Risk
+C0285,73,UAE,Student,5228582,21,58790,No,No,35,Low Risk
+C0286,63,Russia,Politician,7781225,39,381262,No,Yes,120,High Risk
+C0287,65,UK,Politician,7801590,3,386060,No,No,70,Medium Risk
+C0288,43,Syria,Politician,1262308,5,356893,No,Yes,100,High Risk
+C0289,44,UAE,Salaried,2695441,55,323543,No,No,55,Medium Risk
+C0290,49,India,Business Owner,1427988,16,413166,No,No,60,Medium Risk
+C0291,44,Syria,Student,843335,39,85445,No,Yes,75,Medium Risk
+C0292,44,Iran,Cash Intensive Business,1589923,37,77191,No,Yes,105,High Risk
+C0293,46,Iran,Consultant,4975638,16,64479,Yes,Yes,110,High Risk
+C0294,32,UK,Student,6792570,59,299478,No,No,55,Medium Risk
+C0295,70,Russia,Consultant,7787220,14,325799,No,Yes,80,Medium Risk
+C0296,52,Singapore,Salaried,2577144,55,43824,No,No,35,Low Risk
+C0297,66,UK,Salaried,5661793,43,187150,No,No,55,Medium Risk
+C0298,56,Russia,Politician,2942499,46,377015,No,Yes,120,High Risk
+C0299,61,UAE,Politician,8835505,15,68628,No,No,70,Medium Risk
+C0300,71,UAE,Business Owner,8588312,2,194213,No,No,50,Medium Risk
+C0301,44,UK,Student,2477199,40,468599,No,No,55,Medium Risk
+C0302,40,Syria,Consultant,8330667,34,220374,No,Yes,90,High Risk
+C0303,73,USA,Business Owner,5618841,42,43883,No,No,50,Medium Risk
+C0304,64,Iran,Business Owner,9549336,41,313169,No,Yes,100,High Risk
+C0305,29,Syria,Student,1229673,54,70096,No,Yes,75,Medium Risk
+C0306,40,UAE,Business Owner,5713349,60,376894,No,No,70,Medium Risk
+C0307,54,Russia,Salaried,4504459,13,337952,No,Yes,75,Medium Risk
+C0308,38,UAE,Consultant,5380553,40,284696,No,No,60,Medium Risk
+C0309,62,UAE,Student,2886950,11,350365,No,No,45,Medium Risk
+C0310,59,Iran,Student,991125,53,457870,Yes,Yes,125,High Risk
+C0311,23,Russia,Consultant,3836777,50,304964,No,Yes,90,High Risk
+C0312,61,India,Cash Intensive Business,9453271,19,341544,No,No,75,Medium Risk
+C0313,51,Singapore,Consultant,7113102,20,242787,No,No,50,Medium Risk
+C0314,24,UAE,Cash Intensive Business,7272975,31,248501,No,No,85,High Risk
+C0315,59,UAE,Politician,5657240,47,456295,No,No,90,High Risk
+C0316,46,UAE,Politician,8939932,36,60670,No,No,80,Medium Risk
+C0317,50,USA,Politician,7842969,16,78860,No,No,70,Medium Risk
+C0318,39,Syria,Student,7315136,16,458670,No,Yes,75,Medium Risk
+C0319,73,Iran,Student,5546485,13,405095,No,Yes,75,Medium Risk
+C0320,53,UK,Cash Intensive Business,5476450,32,17151,No,No,65,Medium Risk
+C0321,46,UK,Business Owner,3909524,38,190018,Yes,No,110,High Risk
+C0322,39,UK,Student,8195137,19,286380,Yes,No,85,High Risk
+C0323,27,Syria,Business Owner,4737118,47,196772,No,Yes,100,High Risk
+C0324,44,India,Cash Intensive Business,1158283,37,299553,No,No,85,High Risk
+C0325,56,Russia,Salaried,6781857,33,241115,No,Yes,85,High Risk
+C0326,38,USA,Business Owner,1922046,26,200663,No,No,60,Medium Risk
+C0327,42,Iran,Business Owner,3639637,39,271926,No,Yes,100,High Risk
+C0328,23,India,Salaried,2599088,46,179609,No,No,55,Medium Risk
+C0329,54,UK,Business Owner,8948751,9,176948,No,No,50,Medium Risk
+C0330,41,UAE,Cash Intensive Business,5320319,38,181356,No,No,85,High Risk
+C0331,53,UK,Consultant,9744301,20,253980,No,No,50,Medium Risk
+C0332,44,Iran,Consultant,2138859,27,311028,No,Yes,80,Medium Risk
+C0333,67,India,Student,8262302,17,348718,No,No,45,Medium Risk
+C0334,70,Singapore,Consultant,1161596,38,256893,No,No,60,Medium Risk
+C0335,61,Syria,Business Owner,4363384,3,305191,No,Yes,80,Medium Risk
+C0336,28,Singapore,Salaried,7699399,21,224561,No,No,45,Medium Risk
+C0337,65,Singapore,Cash Intensive Business,8719134,50,325590,No,No,85,High Risk
+C0338,75,India,Consultant,2616639,34,113706,No,No,60,Medium Risk
+C0339,63,UK,Student,6622070,21,95797,No,No,35,Low Risk
+C0340,55,Iran,Student,6243949,44,409744,No,Yes,85,High Risk
+C0341,64,Russia,Student,8423194,13,134247,No,Yes,75,Medium Risk
+C0342,40,Singapore,Politician,5148684,46,113673,No,No,90,High Risk
+C0343,52,Iran,Cash Intensive Business,6151946,36,494527,No,Yes,115,High Risk
+C0344,67,Russia,Politician,2344708,37,359744,No,Yes,120,High Risk
+C0345,46,Iran,Business Owner,5172986,3,155801,No,Yes,80,Medium Risk
+C0346,26,Iran,Cash Intensive Business,4602415,48,256175,No,Yes,115,High Risk
+C0347,73,Russia,Student,4857052,9,62266,No,Yes,55,Medium Risk
+C0348,58,Singapore,Business Owner,1151702,43,479577,No,No,70,Medium Risk
+C0349,61,Singapore,Salaried,1981042,27,178168,No,No,45,Medium Risk
+C0350,27,UAE,Salaried,9533383,60,87806,No,No,45,Medium Risk
+C0351,51,UK,Consultant,3646315,49,155599,No,No,60,Medium Risk
+C0352,62,India,Salaried,9932359,15,285573,No,No,45,Medium Risk
+C0353,75,India,Business Owner,7310946,57,444146,No,No,70,Medium Risk
+C0354,23,Syria,Cash Intensive Business,3425790,60,397693,No,Yes,115,High Risk
+C0355,39,India,Salaried,5306190,37,321031,No,No,55,Medium Risk
+C0356,42,Russia,Cash Intensive Business,9415069,34,263952,No,Yes,115,High Risk
+C0357,29,UK,Politician,3534838,52,64059,No,No,80,Medium Risk
+C0358,67,UK,Consultant,4616188,46,102621,Yes,No,100,High Risk
+C0359,42,Russia,Student,3540708,12,325316,No,Yes,75,Medium Risk
+C0360,46,Syria,Student,5801696,6,215152,No,Yes,65,Medium Risk
+C0361,32,UAE,Cash Intensive Business,5729135,60,135048,Yes,No,125,High Risk
+C0362,45,Singapore,Cash Intensive Business,4779421,22,163306,No,No,75,Medium Risk
+C0363,57,India,Politician,6332283,45,128890,No,No,90,High Risk
+C0364,28,UK,Politician,2979603,26,364700,No,No,80,Medium Risk
+C0365,66,Russia,Consultant,2269909,41,485316,No,Yes,90,High Risk
+C0366,44,Singapore,Business Owner,2540912,31,85313,No,No,60,Medium Risk
+C0367,59,Iran,Cash Intensive Business,9514625,59,251849,No,Yes,115,High Risk
+C0368,72,Singapore,Business Owner,1673555,34,239224,No,No,70,Medium Risk
+C0369,44,USA,Student,2182551,4,439516,No,No,35,Low Risk
+C0370,53,Singapore,Student,9303663,10,91264,No,No,35,Low Risk
+C0371,54,UK,Salaried,3746065,46,310737,No,No,55,Medium Risk
+C0372,53,UK,Salaried,7907331,9,274089,No,No,35,Low Risk
+C0373,57,India,Student,8057420,44,428056,No,No,55,Medium Risk
+C0374,22,Syria,Politician,350591,48,119243,No,Yes,120,High Risk
+C0375,23,Syria,Politician,1369713,35,36591,No,Yes,100,High Risk
+C0376,25,UK,Salaried,5116582,27,99362,No,No,35,Low Risk
+C0377,70,Syria,Politician,6716943,29,460931,No,Yes,110,High Risk
+C0378,45,Syria,Salaried,9347957,9,347640,No,Yes,65,Medium Risk
+C0379,28,UAE,Student,6894429,34,71766,No,No,45,Medium Risk
+C0380,35,India,Salaried,5305700,30,358107,No,No,45,Medium Risk
+C0381,48,Syria,Business Owner,4452562,30,186487,No,Yes,90,High Risk
+C0382,33,USA,Salaried,7333690,40,406632,No,No,55,Medium Risk
+C0383,22,Singapore,Business Owner,1428954,7,316397,Yes,No,90,High Risk
+C0384,59,India,Business Owner,1042169,26,235142,No,No,60,Medium Risk
+C0385,34,India,Business Owner,8753969,19,127768,No,No,60,Medium Risk
+C0386,67,Iran,Student,5679867,16,163211,No,Yes,75,Medium Risk
+C0387,63,Singapore,Cash Intensive Business,5341569,18,36959,No,No,55,Medium Risk
+C0388,58,UAE,Consultant,7467236,36,264848,Yes,No,100,High Risk
+C0389,43,Syria,Student,5647476,45,223274,No,Yes,85,High Risk
+C0390,40,Syria,Business Owner,9324938,31,131336,No,Yes,100,High Risk
+C0391,40,UAE,Cash Intensive Business,1266769,36,221361,No,No,85,High Risk
+C0392,56,UAE,Cash Intensive Business,4374489,17,111607,No,No,75,Medium Risk
+C0393,26,UK,Politician,1851288,35,384891,No,No,90,High Risk
+C0394,24,Russia,Cash Intensive Business,963497,56,43159,No,Yes,95,High Risk
+C0395,69,Singapore,Cash Intensive Business,3804577,56,480546,No,No,85,High Risk
+C0396,21,Singapore,Business Owner,2268239,48,400486,No,No,70,Medium Risk
+C0397,36,Singapore,Cash Intensive Business,4315307,36,173618,No,No,85,High Risk
+C0398,45,UK,Student,6327375,20,142133,No,No,45,Medium Risk
+C0399,52,UK,Salaried,8176742,49,445260,No,No,55,Medium Risk
+C0400,34,Iran,Politician,7244595,3,299924,No,Yes,100,High Risk
+C0401,68,UAE,Salaried,4675063,36,495082,No,No,55,Medium Risk
+C0402,67,Syria,Politician,2857039,13,177944,No,Yes,110,High Risk
+C0403,57,Singapore,Cash Intensive Business,9538248,42,499647,No,No,85,High Risk
+C0404,37,UK,Consultant,8530828,30,93202,No,No,40,Low Risk
+C0405,43,UAE,Business Owner,9469525,32,101494,No,No,70,Medium Risk
+C0406,55,India,Student,867468,54,448913,No,No,55,Medium Risk
+C0407,73,India,Salaried,7218793,9,446736,No,No,35,Low Risk
+C0408,25,UAE,Salaried,3969507,33,244080,No,No,55,Medium Risk
+C0409,60,UK,Consultant,8484838,2,8466,No,No,20,Low Risk
+C0410,47,India,Salaried,9182154,47,149043,No,No,55,Medium Risk
+C0411,39,India,Student,7523819,52,497679,No,No,55,Medium Risk
+C0412,27,USA,Student,2798085,16,105627,No,No,45,Medium Risk
+C0413,37,Iran,Politician,6958817,6,200586,No,Yes,100,High Risk
+C0414,50,Singapore,Consultant,4089255,20,363634,No,No,50,Medium Risk
+C0415,26,India,Salaried,7099441,25,202745,No,No,45,Medium Risk
+C0416,24,India,Consultant,3175339,6,267069,No,No,40,Low Risk
+C0417,62,Iran,Student,1899906,58,281907,No,Yes,85,High Risk
+C0418,35,Singapore,Consultant,9809060,31,147131,Yes,No,100,High Risk
+C0419,25,Russia,Student,9754126,43,22250,No,Yes,65,Medium Risk
+C0420,75,Iran,Salaried,3775536,38,80597,No,Yes,75,Medium Risk
+C0421,66,Syria,Salaried,5321033,11,300676,No,Yes,75,Medium Risk
+C0422,74,Syria,Consultant,9369132,22,206245,No,Yes,80,Medium Risk
+C0423,29,USA,Student,6102559,4,56215,No,No,25,Low Risk
+C0424,74,USA,Politician,6955572,50,176115,Yes,No,130,High Risk
+C0425,38,UK,Cash Intensive Business,4127527,23,294951,No,No,75,Medium Risk
+C0426,48,UAE,Consultant,6676562,6,409838,No,No,40,Low Risk
+C0427,72,Singapore,Consultant,1533237,6,145494,No,No,40,Low Risk
+C0428,66,UAE,Consultant,6836772,21,194110,No,No,50,Medium Risk
+C0429,21,Russia,Cash Intensive Business,6338413,49,146435,No,Yes,115,High Risk
+C0430,26,UAE,Cash Intensive Business,7830347,36,295843,No,No,85,High Risk
+C0431,27,India,Salaried,6237696,36,53792,No,No,45,Medium Risk
+C0432,71,Iran,Cash Intensive Business,507041,19,221955,No,Yes,105,High Risk
+C0433,26,Singapore,Student,9042683,11,364302,No,No,45,Medium Risk
+C0434,29,Russia,Politician,4803118,32,81511,No,Yes,110,High Risk
+C0435,48,Russia,Cash Intensive Business,5329008,31,415342,No,Yes,115,High Risk
+C0436,37,Singapore,Consultant,8618184,39,328312,No,No,60,Medium Risk
+C0437,27,UAE,Politician,413537,26,179177,No,No,80,Medium Risk
+C0438,45,Iran,Cash Intensive Business,5915941,28,432544,No,Yes,105,High Risk
+C0439,62,UAE,Politician,5679868,39,369533,No,No,90,High Risk
+C0440,41,UAE,Cash Intensive Business,5654241,19,390285,No,No,75,Medium Risk
+C0441,52,Singapore,Politician,6609161,18,433078,No,No,80,Medium Risk
+C0442,44,USA,Student,3652088,38,291066,No,No,55,Medium Risk
+C0443,70,India,Consultant,8044735,46,114916,No,No,60,Medium Risk
+C0444,39,USA,Cash Intensive Business,8676917,9,337050,No,No,65,Medium Risk
+C0445,37,UAE,Consultant,7398909,51,202651,No,No,60,Medium Risk
+C0446,59,UK,Student,7024393,35,270610,No,No,55,Medium Risk
+C0447,65,Syria,Student,916817,51,193496,No,Yes,85,High Risk
+C0448,72,USA,Salaried,4464624,43,353491,No,No,55,Medium Risk
+C0449,62,India,Student,7004473,49,178852,No,No,55,Medium Risk
+C0450,48,USA,Salaried,1954343,17,121392,No,No,45,Medium Risk
+C0451,54,Singapore,Cash Intensive Business,6576684,26,247778,No,No,75,Medium Risk
+C0452,58,UAE,Politician,712092,31,59813,No,No,80,Medium Risk
+C0453,26,USA,Consultant,2676915,23,168520,No,No,50,Medium Risk
+C0454,71,Singapore,Student,8402153,23,254646,No,No,45,Medium Risk
+C0455,67,UK,Politician,1426998,20,28426,No,No,60,Medium Risk
+C0456,28,India,Politician,2134801,44,424456,No,No,90,High Risk
+C0457,68,Singapore,Student,3226839,36,88957,No,No,45,Medium Risk
+C0458,48,UK,Business Owner,7095568,41,101705,No,No,70,Medium Risk
+C0459,63,Syria,Cash Intensive Business,789765,48,326968,No,Yes,115,High Risk
+C0460,49,Syria,Cash Intensive Business,374659,46,117615,No,Yes,115,High Risk
+C0461,69,USA,Student,2007116,52,462168,No,No,55,Medium Risk
+C0462,44,Iran,Business Owner,7976422,8,142548,No,Yes,80,Medium Risk
+C0463,52,Iran,Student,6820284,40,210806,No,Yes,85,High Risk
+C0464,43,Iran,Cash Intensive Business,3194531,53,358154,No,Yes,115,High Risk
+C0465,40,USA,Consultant,2547270,21,66793,No,No,40,Low Risk
+C0466,28,UAE,Politician,2671602,33,208666,No,No,90,High Risk
+C0467,29,Syria,Cash Intensive Business,3416429,32,338185,No,Yes,115,High Risk
+C0468,62,UAE,Student,3099538,32,156432,No,No,55,Medium Risk
+C0469,41,UK,Student,1199447,56,193239,No,No,55,Medium Risk
+C0470,52,UAE,Business Owner,6741514,36,269995,No,No,70,Medium Risk
+C0471,47,UK,Cash Intensive Business,7746596,32,92688,No,No,75,Medium Risk
+C0472,22,Singapore,Politician,848532,18,122882,No,No,80,Medium Risk
+C0473,31,UK,Student,8609978,36,272809,No,No,55,Medium Risk
+C0474,28,Russia,Student,6454919,35,436285,No,Yes,85,High Risk
+C0475,69,UK,Student,3966525,28,58695,No,No,35,Low Risk
+C0476,62,Singapore,Politician,840736,29,142790,No,No,80,Medium Risk
+C0477,73,USA,Cash Intensive Business,2269410,50,430663,No,No,85,High Risk
+C0478,72,Iran,Consultant,7483451,11,328040,No,Yes,80,Medium Risk
+C0479,34,Singapore,Salaried,9864260,23,284068,No,No,45,Medium Risk
+C0480,55,UAE,Politician,5209595,19,305278,No,No,80,Medium Risk
+C0481,75,USA,Business Owner,7205438,59,36082,No,No,50,Medium Risk
+C0482,62,UAE,Consultant,2526183,16,81673,No,No,40,Low Risk
+C0483,74,Singapore,Consultant,6888425,32,79538,No,No,50,Medium Risk
+C0484,38,Syria,Cash Intensive Business,7883162,5,337203,No,Yes,95,High Risk
+C0485,70,USA,Cash Intensive Business,8950558,48,150870,No,No,85,High Risk
+C0486,44,UK,Cash Intensive Business,5791002,38,6296,No,No,65,Medium Risk
+C0487,75,USA,Consultant,7991502,41,353202,No,No,60,Medium Risk
+C0488,75,USA,Student,6972565,14,230256,No,No,45,Medium Risk
+C0489,52,Russia,Politician,5057902,22,291948,No,Yes,110,High Risk
+C0490,57,UK,Politician,1112172,3,57205,No,No,60,Medium Risk
+C0491,74,UK,Salaried,2384353,60,454656,No,No,55,Medium Risk
+C0492,50,India,Cash Intensive Business,3694336,45,481791,No,No,85,High Risk
+C0493,62,Russia,Business Owner,4897283,6,348192,No,Yes,80,Medium Risk
+C0494,26,Iran,Consultant,3077050,4,212797,No,Yes,70,Medium Risk
+C0495,67,Singapore,Cash Intensive Business,1830068,46,54903,Yes,No,115,High Risk
+C0496,51,USA,Business Owner,4094852,34,361506,No,No,70,Medium Risk
+C0497,21,Iran,Salaried,7385252,45,74297,No,Yes,75,Medium Risk
+C0498,35,Syria,Salaried,2018442,7,169286,No,Yes,65,Medium Risk
+C0499,40,UAE,Cash Intensive Business,2533823,42,360014,No,No,85,High Risk
+C0500,54,India,Student,3053418,29,189123,No,No,45,Medium Risk
