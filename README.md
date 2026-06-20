@@ -75,10 +75,7 @@ The analysis includes:
 
 The complete SQL queries are available in:
 
-
-```sql
-sql_queries/aml_kyc_analysis.sql
-```
+📄 **SQL Queries:** [AML_KYC_Analysis.sql](sql_queries/AML_KYC_Analysis.sql)
 
 ## Dashboard Features
 
