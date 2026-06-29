@@ -1,5 +1,5 @@
 
-# AML-KYC-Customer-Risk-Analysis & Automation Pipeline
+# Financial-Crime-Risk-Analysis & Automation Pipeline
 
 ## Project Overview
 This project delivers an enterprise-grade customer risk profiling and automation pipeline using PostgreSQL, Python, and Excel. The system focuses on identifying high-risk customers, evaluating geographic and occupational exposure based on international regulatory standards, and automating data delivery for Enhanced Due Diligence (EDD) workflows. An interactive Excel dashboard complements the automated backend to enable seamless compliance monitoring and data-driven decision-making.
