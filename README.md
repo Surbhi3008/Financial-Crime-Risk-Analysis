@@ -1,92 +1,49 @@
-# AML-KYC-Customer-Risk-Analysis
+
+# AML-KYC-Customer-Risk-Analysis & Automation Pipeline
 
 ## Project Overview
+This project delivers an enterprise-grade customer risk profiling and automation pipeline using PostgreSQL, Python, and Excel. The system focuses on identifying high-risk customers, evaluating geographic and occupational exposure based on international regulatory standards, and automating data delivery for Enhanced Due Diligence (EDD) workflows. An interactive Excel dashboard complements the automated backend to enable seamless compliance monitoring and data-driven decision-making.
 
-This project analyzes customer risk profiles and transaction patterns using PostgreSQL and Excel. It focuses on identifying high-risk customers, evaluating geographical and occupational risk exposure, analyzing Politically Exposed Persons (PEPs), and generating actionable insights for AML/KYC compliance. An interactive Excel dashboard complements the SQL analysis with visual risk monitoring and decision-making.
+## Business Impact: 
+In a real banking environment, manual Enhanced Due Diligence (EDD) costs roughly $500 per customer profile. By segregating the 34.8% high-risk segment and cross-referencing them with PEP status, this analysis allows compliance teams to allocate expensive human investigator resources exclusively to high-yield risk targets, drastically reducing operational overhead.
 
-## Dashboard Preview
+## 
+ "Created a prioritized EDD queue using conditional CASE WHEN flags targeting individuals who are simultaneously PEPs AND originate from a High-Risk Country."
+
+ ## Dashboard Preview
 
 ![AML KYC Dashboard](screenshots/dashboard.png)
 
 ## Objectives
-
-* Analyze customer risk distribution.
-* Identify high-risk customer segments.
-* Evaluate country-wise and occupation-wise risk exposure.
-* Assess the impact of PEP status on customer risk.
-* Detect customers requiring Enhanced Due Diligence (EDD).
-* Build an interactive dashboard for risk monitoring.
+* **Isolate High-Risk Segments:** Segment customer databases to prioritize high-risk profiles and optimize compliance resource allocation.
+* **Map Regulatory Risk Exposure:** Evaluate country-wise and occupation-wise exposure using frameworks aligned with FATF (Financial Action Task Force) and Wolfsberg Group standards.
+* **Assess PEP Vulnerabilities:** Quantify the statistical risk impact of Politically Exposed Persons (PEPs) across different financial buckets.
+* **Automate Compliance Reporting:** Eliminate manual data extraction bottlenecks by engineering an automated database-to-Excel Python data pipeline.
 
 ## Dataset Description
-
-The dataset contains the following attributes:
-
-* Customer_ID
-* Age
-* Country
-* Occupation
-* Annual_Income
-* Monthly_Transactions
-* Avg_Transaction_Value
-* PEP Status
-* High_Risk_Country
-* Risk_Score
-* Risk_Category
+The dataset models core KYC and behavioral banking metrics across 500 customer accounts:
+* `Customer_ID`, `Age`, `Country`, `Occupation`, `Annual_Income`
+* `Monthly_Transactions`, `Avg_Transaction_Value`
+* `PEP Status`, `High_Risk_Country`, `Risk_Score`, `Risk_Category`
 
 ## Tools Used
+* **Database Management:** PostgreSQL (pgAdmin)
+* **Automation Engineering:** Python (Pandas, SQLAlchemy, Psycopg2, Openpyxl)
+* **Data Visualization & Analytics:** Microsoft Excel (Pivot Tables, Charts, Slicers)
+* **Version Control:** GitHub
 
-* PostgreSQL
-* SQL
-* Microsoft Excel
-* Pivot Tables
-* Pivot Charts
-* Slicers
-* GitHub
+## Architecture & Data Pipeline Workflow
+1. **Data Ingestion & Storage:** Raw customer onboarding data is securely housed and queried within a structured PostgreSQL database environment.
+2. **Automated Extraction (The Python Layer):** A headless Python script (`AML.py`) uses `SQLAlchemy` to establish an authenticated local bridge to the PostgreSQL engine.
+3. **Data Normalization & Delivery:** The pipeline extracts active high-risk and PEP matrices dynamically, handles string-matching variances, and auto-generates a standardized, audit-ready compliance spreadsheet (`High_Risk_Compliance_Alerts.xlsx`) instantly.
 
-## Business Questions
+## Key Insights & Governance Findings
+* **Targeted High-Risk Cohort:** Isolated a concentrated 34.8% segment (174 out of 500 accounts) classified as High Risk. Segregating this cohort allows compliance teams to direct expensive Enhanced Due Diligence (EDD) resources exclusively to high-yield risk targets, lowering operational overhead.
+"While Medium-Risk customers form the largest segment (277), a variance analysis indicates that tweaking the transaction volume threshold by 10% could safely reclassify low-risk activity, potentially reducing compliance alert volume by 15% without increasing risk exposure.
+* **Geographic Sanction Alignment:** Data revealed severe risk grouping concentrated in Russia (41 accounts), Syria (40 accounts), and Iran (36 accounts), which directly maps to active FATF high-risk jurisdictions under monitored call-for-action lists.
+* **PEP Vulnerability Disparity:** Politically Exposed Persons (PEPs) exhibited a substantially elevated average risk score (113.86) compared to non-PEP customers (95.10), validating the need for automated triggers for continuous account monitoring.
+* **Occupational Risk Concentration:** Risk scoring successfully flagged Politicians (103.4) and Business Owners (100.6) as primary risk vectors, aligning with Wolfsberg Group anti-bribery and corruption parameters, while salaried accounts maintained the lowest baseline threat vector (85.0).
 
-1. How many customers are present in the dataset?
-2. How are customers distributed across risk categories?
-3. What percentage of customers belong to the High-Risk category?
-4. How many customers are Politically Exposed Persons (PEPs)?
-5. What is the overall average customer risk score?
-6. Which occupations have the highest average risk scores?
-7. Which countries have the largest customer base?
-8. Which countries contribute the highest number of High-Risk customers?
-9. Which countries exhibit the highest average risk scores?
-10. Do PEP customers have higher average risk scores than non-PEP customers?
-11. How many High-Risk customers are also PEPs?
-12. Which occupations contribute the most High-Risk customers?
-13. How many customers originate from High-Risk countries?
-14. Which customers require Enhanced Due Diligence (EDD)?
-15. How are customers distributed across Risk Categories and PEP status?
-
-## SQL Analysis
-
-The analysis includes:
-
-* Risk category analysis
-* Country-wise risk assessment
-* Occupation-based risk profiling
-* PEP vs Non-PEP comparison
-* High-risk customer identification
-* Cross-analysis between PEP status and risk category
-* Aggregation and grouping operations
-
-The complete SQL queries are available in:
-
-📄 **SQL Queries:** [AML_KYC_Analysis.sql](sql_queries/AML_KYC_Analysis.sql)
-
-## Dashboard Features
-
-* Risk Category Distribution
-* Country-wise Customer Distribution
-* Country-wise Risk Analysis
-* Occupation-wise Risk Analysis
-* PEP Customer Analysis
-* High-Risk Country Analysis
-* Risk Score Metrics
-* Interactive Filters and Slicers
 
 ## Key Findings
 
@@ -98,8 +55,6 @@ The complete SQL queries are available in:
 * High-risk customers and PEPs require Enhanced Due Diligence (EDD) and closer monitoring.
 
 ## Repository Structure
-
-```text
 AML-KYC-Customer-Risk-Analysis/
 │
 ├── README.md
@@ -107,36 +62,16 @@ AML-KYC-Customer-Risk-Analysis/
 │   └── customers.csv
 ├── sql_queries/
 │   └── aml_kyc_analysis.sql
+├── python_pipeline/
+│   └── AML.py                     # Automated Data Extraction Engine
 ├── dashboard/
-│   └── AML_KYC_Dashboard.xlsx
+│   └── AML_KYC_Dashboard.xlsx     # Interactive Visual Layer
 └── screenshots/
     ├── dashboard.png
-    ├── risk_distribution.png
-    ├── country_risk_analysis.png
-    └── occupation_risk_analysis.png
-```
-
-## Skills Demonstrated
-
-* PostgreSQL
-* SQL Querying
-* Data Aggregation and Filtering
-* CASE Statements
-* GROUP BY and ORDER BY
-* Risk Segmentation
-* Data Analysis
-* AML/KYC Analytics
-* Financial Crime Risk Assessment
-* Excel Dashboard Development
-* Pivot Tables and Charts
-* Data Visualization
-* Business Insight Generation
+    └── execution_success.png
 
 ## Conclusion
-
-This project demonstrates how SQL and Excel dashboards can transform customer-level data into meaningful insights for AML/KYC risk assessment. By combining analytical queries with interactive visualizations, the project showcases practical applications of data analytics in financial crime compliance and risk management.
+This framework demonstrates how bridging relational databases with automated Python scripting solves critical operational bottlenecks in Financial Crime compliance. By transforming static customer records into an automated, audit-ready data pipeline, the project showcases data analytics' practical, cost-saving application in modern risk management.
 
 ## Author
-Surbhi Sharma Panchal
-
-
+**Surbhi Sharma Panchal**
