@@ -55,6 +55,7 @@ The dataset models core KYC and behavioral banking metrics across 500 customer a
 * High-risk customers and PEPs require Enhanced Due Diligence (EDD) and closer monitoring.
 
 ## Repository Structure
+```text
 AML-KYC-Customer-Risk-Analysis/
 │
 ├── README.md
@@ -69,7 +70,7 @@ AML-KYC-Customer-Risk-Analysis/
 └── screenshots/
     ├── dashboard.png
     └── execution_success.png
-
+```
 ## Conclusion
 This framework demonstrates how bridging relational databases with automated Python scripting solves critical operational bottlenecks in Financial Crime compliance. By transforming static customer records into an automated, audit-ready data pipeline, the project showcases data analytics' practical, cost-saving application in modern risk management.
 
