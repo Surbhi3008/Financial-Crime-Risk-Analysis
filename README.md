@@ -72,13 +72,13 @@ Customer-Risk-Profiling-Pipeline/
 │   └── High_Risk_Compliance_Alerts.xlsx                  
 ├── dashboard/
 │   └── Financial-Crime-Risk-Analysis-Dashboard.xlsx     # Interactive Visual Layer
-└── screenshots/
+└── screenshots
     ├── dashboard_Analytics.png
-    └── Screenshot 1.png
-    └── Screenshot 2.png
-    └── Screenshot 3.png
-    └── Screenshot 4.png
-    └── Screenshot 5.png
+    └── country_analysis.png
+    └── execution_success.png
+    └── occupation_profiling.png
+    └── risk_distribution.png
+    └── top_10_high_risk_customer.png
 ```
 
 ## Conclusion
