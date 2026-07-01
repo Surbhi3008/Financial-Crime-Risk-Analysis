@@ -74,7 +74,11 @@ Customer-Risk-Profiling-Pipeline/
 │   └── Financial-Crime-Risk-Analysis-Dashboard.xlsx     # Interactive Visual Layer
 └── screenshots/
     ├── dashboard_Analytics.png
-    └── execution_success.png
+    └── Screenshot 1.png
+    └── Screenshot 2.png
+    └── Screenshot 3.png
+    └── Screenshot 4.png
+    └── Screenshot 5.png
 ```
 
 ## Conclusion
